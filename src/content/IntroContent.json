@@ -1,13 +1,11 @@
 {
-  "title": "Landing page template for developers & startups",
-  "text": "Beautifully designed templates using React.js, ant design and styled-components! Save weeks of time and build your landing page in minutes.",
+  "title": "Bem-vindo à Miami Consultoria",
+  "text": "A Miami Consultoria é uma empresa especializada em renegociação de dívidas, ajudando a limpar o nome e a sair da situação de negativado. Com anos de experiência e uma equipe de profissionais qualificados, estamos aqui para ajudar você a resolver seus problemas financeiros de forma rápida e segura.",
   "button": [
     {
       "title": "Explore"
-    },
-    {
-      "title": "Learn more",
-      "color": "#fff"
     }
   ]
 }
+
+

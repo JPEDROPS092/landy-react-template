@@ -128,22 +128,38 @@ const Footer = ({ t }: { t: TFunction }) => {
               </LogoContainer>
             </NavLink>
             <FooterContainer>
+              
+            <a
+                href="https://www.facebook.com/MiamiconsultoriaLimpanome/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  height="36"
+                  style={{ border: 0, height: 36 }}
+                  src="https://img.icons8.com/fluency/48/facebook.png"
+                  alt="Buy Me a Coffee at ko-fi.com"
+                />
+              </a>
+              <a
+                href="https://www.instagram.com/miamiconsultoriama/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  height="36"
+                  style={{ border: 0, height: 36 }}
+                  src="https://img.icons8.com/fluency/48/instagram-new.png"
+                  alt="Buy Me a Coffee at ko-fi.com"
+                />
+              </a>
+             
+              
               <SocialLink
-                href="https://github.com/Adrinlol/create-react-app-adrinlol"
-                src="github.svg"
-              />
-              <SocialLink
-                href="https://twitter.com/Adrinlolx"
-                src="twitter.svg"
-              />
-              <SocialLink
-                href="https://www.linkedin.com/in/lasha-kakabadze/"
+                href="https://www.linkedin.com/in/alexandre-souza-b2583484/?originalSubdomain=br"
                 src="linkedin.svg"
               />
-              <SocialLink
-                href="https://medium.com/@lashakakabadze/"
-                src="medium.svg"
-              />
+
               <a
                 href="https://ko-fi.com/Y8Y7H8BNJ"
                 target="_blank"
@@ -152,7 +168,7 @@ const Footer = ({ t }: { t: TFunction }) => {
                 <img
                   height="36"
                   style={{ border: 0, height: 36 }}
-                  src="https://storage.ko-fi.com/cdn/kofi3.png?v=3"
+                  src="https://img.icons8.com/fluency/48/whatsapp.png"
                   alt="Buy Me a Coffee at ko-fi.com"
                 />
               </a>

@@ -33,7 +33,7 @@ const Contact = ({ title, content, id, t }: ContactProps) => {
                 <Input
                   type="text"
                   name="name"
-                  placeholder="Your Name"
+                  placeholder="Seu nome"
                   value={values.name || ""}
                   onChange={handleChange}
                 />
@@ -43,21 +43,32 @@ const Contact = ({ title, content, id, t }: ContactProps) => {
                 <Input
                   type="text"
                   name="email"
-                  placeholder="Your Email"
+                  placeholder="Seu E-mail"
                   value={values.email || ""}
                   onChange={handleChange}
                 />
                 <ValidationType type="email" />
               </Col>
               <Col span={24}>
+                <Input
+                  type="text"
+                  name="WhatsApp"
+                  placeholder="Número de Contato"
+                  value={values.numero || ""}
+                  onChange={handleChange}
+                />
+                <ValidationType type="email" />
+              </Col>
+              <Col span={24}>
                 <TextArea
-                  placeholder="Your Message"
+                  placeholder="Descreva Sua Situação"
                   value={values.message || ""}
-                  name="message"
+                  name="Mensagem"
                   onChange={handleChange}
                 />
                 <ValidationType type="message" />
               </Col>
+              
               <ButtonContainer>
                 <Button name="submit">{t("Submit")}</Button>
               </ButtonContainer>

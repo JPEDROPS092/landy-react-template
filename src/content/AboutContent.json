@@ -1,16 +1,26 @@
 {
-  "title": "Light, fast & responsive",
-  "text": "This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
+  "title": "Miami Consultoria: Soluções em Renegociação de Dívidas",
+  "text": "A Miami Consultoria é especializada em ajudar você a renegociar suas dívidas de forma prática e segura, com condições personalizadas para limpar seu nome e proteger seu CPF.",
   "section": [
     {
-      "title": "Why Antd?",
-      "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
-      "icon": "notes.svg"
+      "title": "Por que escolher a Miami Consultoria?",
+      "content": "Oferecemos até 99% de desconto nas suas dívidas, formas de pagamento flexíveis e suporte contínuo para garantir que você recupere seu crédito com tranquilidade.",
+      "icon": "discount.svg"
     },
     {
-      "title": "Why styled-components?",
-      "content": "Styled Components gives you total control over your components.",
-      "icon": "notes.svg"
+      "title": "Processo 100% online e seguro",
+      "content": "Desde a consulta das dívidas até o fechamento do acordo, tudo é feito online, garantindo a segurança dos seus dados e a praticidade no atendimento.",
+      "icon": "online-security.svg"
+    },
+    {
+      "title": "Sem taxas adicionais",
+      "content": "Você só paga o valor acordado na renegociação da dívida. Não cobramos por consulta ao CPF ou pelo serviço de limpeza de nome.",
+      "icon": "no-fees.svg"
+    },
+    {
+      "title": "Suporte e acompanhamento contínuos",
+      "content": "Acompanhamos você mesmo após a renegociação, ajudando a evitar novas dívidas e oferecendo suporte contra golpes e fraudes.",
+      "icon": "support.svg"
     }
   ]
 }

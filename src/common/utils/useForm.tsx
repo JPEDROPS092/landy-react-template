@@ -5,12 +5,14 @@ interface IValues {
   name: string;
   email: string;
   message: string;
+  numero : string;
 }
 
 const initialValues: IValues = {
   name: "",
   email: "",
   message: "",
+  numero:""
 };
 
 export const useForm = (validate: { (values: IValues): IValues }) => {

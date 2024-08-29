@@ -1,6 +1,5 @@
 {
-    "title": "Introduce your product quickly & effectively",
-    "text": "Landy comes with multi-lingual support, all of the content is stored in the JSON files, so that you can manage the texts without having any prior knowledge in developing web applications using React.js.",
-    "button": "Get started"
-  }
-  
+  "title": "Apresente seus serviços de renegociação de dívidas de forma rápida e eficaz",
+  "text": "A Miami Consultoria oferece soluções personalizadas para renegociação de dívidas, ajudando a limpar o nome e a sair da situação de negativado. Nossa plataforma é fácil de usar e permite que você gerencie seus serviços de forma eficiente, sem a necessidade de conhecimento prévio em desenvolvimento de aplicações web.",
+  "button": "Comece a renegociar suas dívidas agora"
+}
