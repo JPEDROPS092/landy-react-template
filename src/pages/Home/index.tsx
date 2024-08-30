@@ -5,6 +5,8 @@ import AboutContent from "../../content/AboutContent.json";
 import MissionContent from "../../content/MissionContent.json";
 import ProductContent from "../../content/ProductContent.json";
 import ContactContent from "../../content/ContactContent.json";
+const miami1 = "/img/Miami1.jpg"; // Usando caminho relativo direto
+const miami2 = "/img/Miami2.jpg";
 
 const Contact = lazy(() => import("../../components/ContactForm"));
 const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
@@ -21,7 +23,7 @@ const Home = () => {
         title={IntroContent.title}
         content={IntroContent.text}
         button={IntroContent.button}
-        icon="developer.svg"
+        icon={miami1} // Passando a imagem importada
         id="intro"
       />
       <MiddleBlock
@@ -34,21 +36,21 @@ const Home = () => {
         title={AboutContent.title}
         content={AboutContent.text}
         section={AboutContent.section}
-        icon="graphs.svg"
+        icon={miami2}// Passando o nome do ícone SVG
         id="about"
       />
       <ContentBlock
         direction="right"
         title={MissionContent.title}
         content={MissionContent.text}
-        icon="product-launch.svg"
+        icon="Contrato.svg" // Passando o nome do ícone SVG
         id="mission"
       />
       <ContentBlock
         direction="left"
         title={ProductContent.title}
         content={ProductContent.text}
-        icon="waving.svg"
+        icon="solucoes.svg" // Passando o nome do ícone SVG
         id="product"
       />
       <Contact

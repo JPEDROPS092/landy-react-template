@@ -47,64 +47,47 @@ const Footer = ({ t }: { t: TFunction }) => {
 
   return (
     <>
-      <FooterSection>
+       <FooterSection>
         <Container>
           <Row justify="space-between">
             <Col lg={10} md={10} sm={12} xs={12}>
-              <Language>{t("Contact")}</Language>
-              <Large to="/">{t("Tell us everything")}</Large>
-              <Para>
-                {t(`Do you have any question? Feel free to reach out.`)}
-              </Para>
+              <Language>{t("Contato")}</Language>
+              <Large to="/">{t("Conte-nos tudo")}</Large>
+              <Para>{t(`Você tem alguma pergunta? Sinta-se à vontade para entrar em contato.`)}</Para>
               <a href="mailto:l.qqbadze@gmail.com">
-                <Chat>{t(`Let's Chat`)}</Chat>
+                <Chat>{t(`Vamos Conversar`)}</Chat>
               </a>
             </Col>
             <Col lg={8} md={8} sm={12} xs={12}>
-              <Title>{t("Policy")}</Title>
-              <Large to="/">{t("Application Security")}</Large>
-              <Large to="/">{t("Software Principles")}</Large>
+              <Title>{t("Política")}</Title>
+              <Large to="/">{t("Segurança da Aplicação")}</Large>
+              <Large to="/">{t("Princípios de Software")}</Large>
             </Col>
             <Col lg={6} md={6} sm={12} xs={12}>
               <Empty />
-              <Large to="/">{t("Support Center")}</Large>
-              <Large to="/">{t("Customer Support")}</Large>
+              <Large to="/">{t("Centro de Suporte")}</Large>
+              <Large to="/">{t("Suporte ao Cliente")}</Large>
             </Col>
           </Row>
           <Row justify="space-between">
             <Col lg={10} md={10} sm={12} xs={12}>
               <Empty />
-              <Language>{t("Address")}</Language>
+              <Language>{t("Endereço")}</Language>
               <Para>Rancho Santa Margarita</Para>
               <Para>2131 Elk Street</Para>
-              <Para>California</Para>
+              <Para>Califórnia</Para>
             </Col>
             <Col lg={8} md={8} sm={12} xs={12}>
-              <Title>{t("Company")}</Title>
-              <Large to="/">{t("About")}</Large>
+              <Title>{t("Empresa")}</Title>
+              <Large to="/">{t("Sobre")}</Large>
               <Large to="/">{t("Blog")}</Large>
-              <Large to="/">{t("Press")}</Large>
-              <Large to="/">{t("Careers & Culture")}</Large>
+              <Large to="/">{t("Imprensa")}</Large>
+              <Large to="/">{t("Carreiras e Cultura")}</Large>
             </Col>
             <Col lg={6} md={6} sm={12} xs={12}>
-              <Label htmlFor="select-lang">{t("Language")}</Label>
+              <Label htmlFor="select-lang">{t("Idioma")}</Label>
               <LanguageSwitchContainer>
-                <LanguageSwitch onClick={() => handleChange("en")}>
-                  <SvgIcon
-                    src="united-states.svg"
-                    aria-label="homepage"
-                    width="30px"
-                    height="30px"
-                  />
-                </LanguageSwitch>
-                <LanguageSwitch onClick={() => handleChange("es")}>
-                  <SvgIcon
-                    src="spain.svg"
-                    aria-label="homepage"
-                    width="30px"
-                    height="30px"
-                  />
-                </LanguageSwitch>
+
               </LanguageSwitchContainer>
             </Col>
           </Row>
@@ -120,10 +103,10 @@ const Footer = ({ t }: { t: TFunction }) => {
             <NavLink to="/">
               <LogoContainer>
                 <SvgIcon
-                  src="logo.svg"
+                  src="logo192.png"
                   aria-label="homepage"
-                  width="101px"
-                  height="64px"
+                  width="250px"
+                  height="250px"
                 />
               </LogoContainer>
             </NavLink>
